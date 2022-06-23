@@ -1,0 +1,12 @@
+CRITICAL - 2022-06-17 03:01:38 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\xampp8\htdocs\restoran_ci4\ci_4\system\Validation\Validation.php on line 305
+in SYSTEMPATH\Validation\Rules.php on line 126.
+ 1 SYSTEMPATH\Validation\Validation.php(305): CodeIgniter\Validation\Rules->is_unique('jajan', null)
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('kategori', 'kategori', 'jajan', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1349): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(707): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Admin\Kategori.php(36): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Kategori->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

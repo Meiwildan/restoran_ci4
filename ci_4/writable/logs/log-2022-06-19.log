@@ -1,0 +1,239 @@
+CRITICAL - 2022-06-19 02:32:56 --> Undefined variable $kategori
+in APPPATH\Views\template\option.php on line 2.
+ 1 APPPATH\Views\template\option.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\template\\option.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\option.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/option', [], true)
+ 5 APPPATH\Controllers\Admin\Menu.php(30): view('template/option', [...])
+ 6 SYSTEMPATH\View\Cell.php(105): App\Controllers\Admin\Menu->option_farrel()
+ 7 SYSTEMPATH\Common.php(1151): CodeIgniter\View\Cell->render('App\\Controllers\\Admin\\Menu::option_farrel', null, 0, 'AppControllersAdminMenuoption_farreldcca48101505dd86b703689a604fe3c4')
+ 8 APPPATH\Views\menu\selectfarrel.php(30): view_cell('App\\Controllers\\Admin\\Menu::option_farrel')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu\\selectfarrel.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('menu/selectfarrel', [], true)
+12 APPPATH\Controllers\Admin\Menu.php(21): view('menu/selectfarrel', [...])
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->index()
+14 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 02:36:09 --> Undefined array key "kategori"
+in APPPATH\Views\template\option.php on line 3.
+ 1 APPPATH\Views\template\option.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'APPPATH\\Views\\template\\option.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\option.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/option', [], true)
+ 5 APPPATH\Controllers\Admin\Menu.php(30): view('template/option', [...])
+ 6 SYSTEMPATH\View\Cell.php(105): App\Controllers\Admin\Menu->option()
+ 7 SYSTEMPATH\Common.php(1151): CodeIgniter\View\Cell->render('App\\Controllers\\Admin\\Menu::option', null, 0, 'AppControllersAdminMenuoptiondcca48101505dd86b703689a604fe3c4')
+ 8 APPPATH\Views\menu\selectfarrel.php(30): view_cell('App\\Controllers\\Admin\\Menu::option')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu\\selectfarrel.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('menu/selectfarrel', [], true)
+12 APPPATH\Controllers\Admin\Menu.php(21): view('menu/selectfarrel', [...])
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->index()
+14 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 02:39:31 --> Undefined array key "kategori"
+in APPPATH\Views\template\option.php on line 4.
+ 1 APPPATH\Views\template\option.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'APPPATH\\Views\\template\\option.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\option.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/option', [], true)
+ 5 APPPATH\Controllers\Admin\Menu.php(30): view('template/option', [...])
+ 6 SYSTEMPATH\View\Cell.php(105): App\Controllers\Admin\Menu->option()
+ 7 SYSTEMPATH\Common.php(1151): CodeIgniter\View\Cell->render('App\\Controllers\\Admin\\Menu::option', null, 0, 'AppControllersAdminMenuoptiondcca48101505dd86b703689a604fe3c4')
+ 8 APPPATH\Views\menu\selectfarrel.php(30): view_cell('App\\Controllers\\Admin\\Menu::option')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu\\selectfarrel.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('menu/selectfarrel', [], true)
+12 APPPATH\Controllers\Admin\Menu.php(21): view('menu/selectfarrel', [...])
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->index()
+14 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 02:44:40 --> Undefined array key "kategori"
+in APPPATH\Views\template\option.php on line 4.
+ 1 APPPATH\Views\template\option.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'APPPATH\\Views\\template\\option.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\option.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/option', [], true)
+ 5 APPPATH\Controllers\Admin\Menu.php(34): view('template/option', [...])
+ 6 SYSTEMPATH\View\Cell.php(105): App\Controllers\Admin\Menu->option()
+ 7 SYSTEMPATH\Common.php(1151): CodeIgniter\View\Cell->render('App\\Controllers\\Admin\\Menu::option', null, 0, 'AppControllersAdminMenuoptiondcca48101505dd86b703689a604fe3c4')
+ 8 APPPATH\Views\menu\selectfarrel.php(30): view_cell('App\\Controllers\\Admin\\Menu::option')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu\\selectfarrel.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('menu/selectfarrel', [], true)
+12 APPPATH\Controllers\Admin\Menu.php(21): view('menu/selectfarrel', [...])
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->index()
+14 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 02:44:48 --> Undefined array key "kategori"
+in APPPATH\Views\template\option.php on line 4.
+ 1 APPPATH\Views\template\option.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'APPPATH\\Views\\template\\option.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\option.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/option', [], true)
+ 5 APPPATH\Controllers\Admin\Menu.php(34): view('template/option', [...])
+ 6 SYSTEMPATH\View\Cell.php(105): App\Controllers\Admin\Menu->option()
+ 7 SYSTEMPATH\Common.php(1151): CodeIgniter\View\Cell->render('App\\Controllers\\Admin\\Menu::option', null, 0, 'AppControllersAdminMenuoptiondcca48101505dd86b703689a604fe3c4')
+ 8 APPPATH\Views\menu\selectfarrel.php(30): view_cell('App\\Controllers\\Admin\\Menu::option')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu\\selectfarrel.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('menu/selectfarrel', [], true)
+12 APPPATH\Controllers\Admin\Menu.php(21): view('menu/selectfarrel', [...])
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->index()
+14 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 02:45:34 --> Undefined array key "kategori"
+in APPPATH\Views\template\option.php on line 4.
+ 1 APPPATH\Views\template\option.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'APPPATH\\Views\\template\\option.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\option.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/option', [], true)
+ 5 APPPATH\Controllers\Admin\Menu.php(34): view('template/option', [...])
+ 6 SYSTEMPATH\View\Cell.php(105): App\Controllers\Admin\Menu->option()
+ 7 SYSTEMPATH\Common.php(1151): CodeIgniter\View\Cell->render('\\App\\Controllers\\Admin\\Menu::option', null, 0, 'AppControllersAdminMenuoptiondcca48101505dd86b703689a604fe3c4')
+ 8 APPPATH\Views\menu\selectfarrel.php(31): view_cell('\\App\\Controllers\\Admin\\Menu::option')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu\\selectfarrel.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('menu/selectfarrel', [], true)
+12 APPPATH\Controllers\Admin\Menu.php(21): view('menu/selectfarrel', [...])
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->index()
+14 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 02:45:41 --> Undefined array key "kategori"
+in APPPATH\Views\template\option.php on line 4.
+ 1 APPPATH\Views\template\option.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'APPPATH\\Views\\template\\option.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\option.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/option', [], true)
+ 5 APPPATH\Controllers\Admin\Menu.php(34): view('template/option', [...])
+ 6 SYSTEMPATH\View\Cell.php(105): App\Controllers\Admin\Menu->option()
+ 7 SYSTEMPATH\Common.php(1151): CodeIgniter\View\Cell->render('\\App\\Controllers\\Admin\\Menu::option', null, 0, 'AppControllersAdminMenuoptiondcca48101505dd86b703689a604fe3c4')
+ 8 APPPATH\Views\menu\selectfarrel.php(31): view_cell('\\App\\Controllers\\Admin\\Menu::option')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu\\selectfarrel.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('menu/selectfarrel', [], true)
+12 APPPATH\Controllers\Admin\Menu.php(21): view('menu/selectfarrel', [...])
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->index()
+14 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 05:37:49 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin\Menu.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 05:40:04 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin\Menu.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 05:47:32 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin\Menu.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 05:49:07 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin\Menu.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 05:50:12 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin\Menu.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-19 05:54:01 --> Column 'gambar' cannot be null
+CRITICAL - 2022-06-19 05:54:01 --> Call to a member function move() on null
+in APPPATH\Controllers\Admin\Menu.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 05:59:13 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin\Menu.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 06:00:09 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin\Menu.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 06:02:22 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin\Menu.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 06:02:50 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin\Menu.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 06:03:34 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin\Menu.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 06:03:47 --> Call to a member function move() on null
+in APPPATH\Controllers\Admin\Menu.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 06:03:49 --> Call to a member function move() on null
+in APPPATH\Controllers\Admin\Menu.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 06:05:18 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin\Menu.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 06:05:48 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin\Menu.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 20:43:43 --> Undefined array key "kategori"
+in APPPATH\Views\kategori\updatefarrel.php on line 24.
+ 1 APPPATH\Views\kategori\updatefarrel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'APPPATH\\Views\\kategori\\updatefarrel.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\updatefarrel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/updatefarrel', [], true)
+ 5 APPPATH\Controllers\Admin\Menu.php(106): view('kategori/updatefarrel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->find('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-19 21:12:59 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\menu\update.php on line 23.
+ 1 APPPATH\Views\menu\update.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\menu\\update.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('menu/update', [], true)
+ 5 APPPATH\Controllers\Admin\Menu.php(110): view('menu/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Menu->find('6')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

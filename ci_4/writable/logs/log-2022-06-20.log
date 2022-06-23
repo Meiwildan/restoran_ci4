@@ -1,0 +1,42 @@
+CRITICAL - 2022-06-20 02:43:03 --> Undefined array key "Pelanggan"
+in APPPATH\Views\order\select.php on line 21.
+ 1 APPPATH\Views\order\select.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Pelanggan"', 'APPPATH\\Views\\order\\select.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\order\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('order/select', [], true)
+ 5 APPPATH\Controllers\Admin\Order.php(22): view('order/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:43:18 --> Undefined array key "Tanggal"
+in APPPATH\Views\order\select.php on line 22.
+ 1 APPPATH\Views\order\select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Tanggal"', 'APPPATH\\Views\\order\\select.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\order\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('order/select', [], true)
+ 5 APPPATH\Controllers\Admin\Order.php(22): view('order/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:43:31 --> Undefined array key "tanggal"
+in APPPATH\Views\order\select.php on line 22.
+ 1 APPPATH\Views\order\select.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal"', 'APPPATH\\Views\\order\\select.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\order\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('order/select', [], true)
+ 5 APPPATH\Controllers\Admin\Order.php(22): view('order/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Order->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-20 02:46:18 --> syntax error, unexpected token "}"
+in APPPATH\Views\order\select.php on line 30.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('order/select', [], true)
+ 3 APPPATH\Controllers\Admin\Order.php(22): view('order/select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Order->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

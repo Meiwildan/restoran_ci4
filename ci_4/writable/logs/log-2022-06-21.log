@@ -1,0 +1,121 @@
+CRITICAL - 2022-06-21 02:44:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin\Login.php on line 32.
+ 1 APPPATH\Controllers\Admin\Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Admin\\Login.php', 32)
+ 2 APPPATH\Controllers\Admin\Login.php(21): App\Controllers\Admin\Login->setSession(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 02:45:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin\Login.php on line 32.
+ 1 APPPATH\Controllers\Admin\Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Admin\\Login.php', 32)
+ 2 APPPATH\Controllers\Admin\Login.php(21): App\Controllers\Admin\Login->setSession(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 08:43:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin\Login.php on line 38.
+ 1 APPPATH\Controllers\Admin\Login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Admin\\Login.php', 38)
+ 2 APPPATH\Controllers\Admin\Login.php(24): App\Controllers\Admin\Login->setSession(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 08:48:00 --> Table 'restoran_ci4.tbluser' doesn't exist
+CRITICAL - 2022-06-21 08:48:00 --> Call to a member function getRow() on bool
+in SYSTEMPATH\Validation\Rules.php on line 142.
+ 1 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('farrel', 'user', [...], null)
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('user', 'user', 'farrel', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1349): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(707): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Admin\User.php(48): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\User->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 08:51:42 --> Table 'restoran_ci4.tbluser' doesn't exist
+CRITICAL - 2022-06-21 08:51:42 --> Call to a member function getRow() on bool
+in SYSTEMPATH\Validation\Rules.php on line 142.
+ 1 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('farrel', 'user', [...], null)
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('user', 'user', 'farrel', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1349): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(707): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Admin\User.php(51): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\User->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 08:52:23 --> Table 'restoran_ci4.tbluser' doesn't exist
+CRITICAL - 2022-06-21 08:52:23 --> Call to a member function getRow() on bool
+in SYSTEMPATH\Validation\Rules.php on line 142.
+ 1 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('jogo153', 'user', [...], null)
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('user', 'user', 'jogo153', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1349): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(707): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Admin\User.php(51): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\User->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 08:55:56 --> Table 'restoran_ci4.tbluser' doesn't exist
+CRITICAL - 2022-06-21 08:55:56 --> Call to a member function getRow() on bool
+in SYSTEMPATH\Validation\Rules.php on line 142.
+ 1 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('jogo153', 'user', [...], null)
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('user', 'user', 'jogo153', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1349): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(707): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Admin\User.php(48): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\User->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 08:58:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin\Login.php on line 38.
+ 1 APPPATH\Controllers\Admin\Login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Admin\\Login.php', 38)
+ 2 APPPATH\Controllers\Admin\Login.php(24): App\Controllers\Admin\Login->setSession(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 09:00:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin\Login.php on line 38.
+ 1 APPPATH\Controllers\Admin\Login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Admin\\Login.php', 38)
+ 2 APPPATH\Controllers\Admin\Login.php(24): App\Controllers\Admin\Login->setSession(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 09:02:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin\Login.php on line 38.
+ 1 APPPATH\Controllers\Admin\Login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Admin\\Login.php', 38)
+ 2 APPPATH\Controllers\Admin\Login.php(24): App\Controllers\Admin\Login->setSession(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 09:02:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin\Login.php on line 39.
+ 1 APPPATH\Controllers\Admin\Login.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Admin\\Login.php', 39)
+ 2 APPPATH\Controllers\Admin\Login.php(24): App\Controllers\Admin\Login->setSession(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 09:22:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin\Login.php on line 37.
+ 1 APPPATH\Controllers\Admin\Login.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Admin\\Login.php', 37)
+ 2 APPPATH\Controllers\Admin\Login.php(23): App\Controllers\Admin\Login->setSession(null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 09:35:39 --> Class "App\Filters\ApiAuth" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

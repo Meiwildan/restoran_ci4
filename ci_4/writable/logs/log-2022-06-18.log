@@ -1,0 +1,29 @@
+CRITICAL - 2022-06-18 05:27:04 --> Undefined variable $id
+in APPPATH\Controllers\Admin\Kategori.php on line 67.
+ 1 APPPATH\Controllers\Admin\Kategori.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Admin\\Kategori.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Kategori->updateFarrel()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 05:49:34 --> Undefined variable $page
+in APPPATH\Views\kategori\select.php on line 32.
+ 1 APPPATH\Views\kategori\select.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'APPPATH\\Views\\kategori\\select.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/select', [], true)
+ 5 APPPATH\Controllers\Admin\Kategori.php(28): view('kategori/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Kategori->read()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 05:51:19 --> Undefined variable $page
+in APPPATH\Views\kategori\select.php on line 35.
+ 1 APPPATH\Views\kategori\select.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'APPPATH\\Views\\kategori\\select.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kategori/select', [], true)
+ 5 APPPATH\Controllers\Admin\Kategori.php(28): view('kategori/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Kategori->read()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
